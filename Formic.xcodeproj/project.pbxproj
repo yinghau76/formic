@@ -15,8 +15,9 @@
 		2899E5220DE3E06400AC0155 /* FormicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* FormicViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* FormicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* FormicViewController.m */; };
-		CD34D8AF123CE9AA00BDA126 /* FormicView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD34D8AE123CE9AA00BDA126 /* FormicView.m */; };
-		CD34D8B3123CE9D100BDA126 /* FormicGame.m in Sources */ = {isa = PBXBuildFile; fileRef = CD34D8B2123CE9D100BDA126 /* FormicGame.m */; };
+		CD34D8CD123CFF5900BDA126 /* FormicGame.m in Sources */ = {isa = PBXBuildFile; fileRef = CD34D8CA123CFF5900BDA126 /* FormicGame.m */; };
+		CD34D8CE123CFF5900BDA126 /* FormicView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD34D8CC123CFF5900BDA126 /* FormicView.m */; };
+		CDEF374B123D430100428643 /* FormicTimerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDEF374A123D430100428643 /* FormicTimerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,10 +34,12 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Formic_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Formic_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Formic-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Formic-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		CD34D8AD123CE9AA00BDA126 /* FormicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FormicView.h; path = ../FormicView.h; sourceTree = "<group>"; };
-		CD34D8AE123CE9AA00BDA126 /* FormicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FormicView.m; path = ../FormicView.m; sourceTree = "<group>"; };
-		CD34D8B1123CE9D100BDA126 /* FormicGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FormicGame.h; path = ../FormicGame.h; sourceTree = "<group>"; };
-		CD34D8B2123CE9D100BDA126 /* FormicGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FormicGame.m; path = ../FormicGame.m; sourceTree = "<group>"; };
+		CD34D8C9123CFF5900BDA126 /* FormicGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormicGame.h; sourceTree = "<group>"; };
+		CD34D8CA123CFF5900BDA126 /* FormicGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormicGame.m; sourceTree = "<group>"; };
+		CD34D8CB123CFF5900BDA126 /* FormicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormicView.h; sourceTree = "<group>"; };
+		CD34D8CC123CFF5900BDA126 /* FormicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormicView.m; sourceTree = "<group>"; };
+		CDEF3749123D430100428643 /* FormicTimerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormicTimerView.h; sourceTree = "<group>"; };
+		CDEF374A123D430100428643 /* FormicTimerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormicTimerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +59,14 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				CD34D8AD123CE9AA00BDA126 /* FormicView.h */,
-				CD34D8AE123CE9AA00BDA126 /* FormicView.m */,
+				CDEF3749123D430100428643 /* FormicTimerView.h */,
+				CDEF374A123D430100428643 /* FormicTimerView.m */,
+				CD34D8C9123CFF5900BDA126 /* FormicGame.h */,
+				CD34D8CA123CFF5900BDA126 /* FormicGame.m */,
+				CD34D8CB123CFF5900BDA126 /* FormicView.h */,
+				CD34D8CC123CFF5900BDA126 /* FormicView.m */,
 				1D3623240D0F684500981E51 /* FormicAppDelegate.h */,
 				1D3623250D0F684500981E51 /* FormicAppDelegate.m */,
-				CD34D8B1123CE9D100BDA126 /* FormicGame.h */,
-				CD34D8B2123CE9D100BDA126 /* FormicGame.m */,
 				28D7ACF60DDB3853001CB0EB /* FormicViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* FormicViewController.m */,
 			);
@@ -174,8 +179,9 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* FormicAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* FormicViewController.m in Sources */,
-				CD34D8AF123CE9AA00BDA126 /* FormicView.m in Sources */,
-				CD34D8B3123CE9D100BDA126 /* FormicGame.m in Sources */,
+				CD34D8CD123CFF5900BDA126 /* FormicGame.m in Sources */,
+				CD34D8CE123CFF5900BDA126 /* FormicView.m in Sources */,
+				CDEF374B123D430100428643 /* FormicTimerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
