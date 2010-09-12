@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'Formic' target in the 'Formic' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
