@@ -230,6 +230,14 @@
 }
 
 - (void)startGame {
+    
+    // remove old circles
+    for (int i = 0; i < GAME_CIRCLES; i++) {
+        [mCircleView[i] removeFromSuperview];
+        [mCircleView[i] release];
+        mCircleView[i] = nil;
+    }
+
     // animate it out
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDuration:ANIM_SHORT];
